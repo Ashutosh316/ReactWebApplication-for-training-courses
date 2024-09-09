@@ -1,0 +1,25 @@
+.card{
+   background-color: #c11e1e;
+   color: white;
+    padding: 40px;
+    border: none;
+    border-radius: 20px;
+    max-width: 400px; /* Set the max width */
+    margin: 0 auto; /* Center the card horizontally */
+    text-align: center; /* Center the text */
+}
+
+.icon{
+    font-size: 2rem;
+    color: white;
+}
+
+.card-title{
+    font-size: 1.5rem;
+
+
+}
+
+.card-text {
+    font-size: 1rem;
+}

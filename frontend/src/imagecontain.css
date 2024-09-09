@@ -1,0 +1,16 @@
+.container{
+    background-color: #fff;;
+    width: 650px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px 20px 20px 20px; /* Top-left and top-right corners are rounded */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

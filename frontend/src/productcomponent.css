@@ -1,0 +1,80 @@
+.product {
+    
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 400px;
+    overflow: hidden;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+font-family: Arial, sans-serif;
+  }
+
+.badge{
+    position: absolute;
+    font-size: 16px;
+    color: #1f272b;
+    top: 16px;
+    left: 16px;
+    font-weight: 600;
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    overflow: hidden;
+}
+.img-container {
+    position: relative;
+    } 
+
+    .img-fluid {
+        width: 100%;
+        height: auto;
+        }
+
+        .container{
+            padding: 16px;
+        }
+
+        .date {
+            color: #d9534f;
+            font-weight: bold;
+            font-size: 14px;
+           
+            }
+
+            .title {
+                font-weight: bold;
+                font-size: 18px;
+                 text-align: right;
+                  flex-grow: 1;
+                    margin-left: 16px;
+                   white-space: nowrap;
+                     overflow: hidden;
+                       text-overflow: ellipsis;
+                }
+
+                .description {
+                    color: #666;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    }
+
+                    .header {
+                        display: flex;
+                        justify-content: space-between;
+                           align-items: center;
+                        margin-bottom: 8px;
+
+                    }
+
+                    .content {
+                        
+                        padding: 16px;
+                        padding-right: 24px; /* Increase right padding to expand white area on the right */
+                        padding-bottom: 24px; /* Increase bottom padding to create more space */
+                        border-top: 1px solid #e0e0e0;
+                        font-family: Arial, sans-serif;
+                        
+                    
+                    }

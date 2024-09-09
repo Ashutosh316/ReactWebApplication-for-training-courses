@@ -1,0 +1,64 @@
+.schimg-container{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 100%; /* Ensure the container does not exceed its parent's width */
+   
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px; /* Ensure images are also rounded */
+}
+
+.Schooltitle{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.school-paragraph{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+}
+
+.sch-btn{
+    font-size: 13px;
+    color: #fff;
+    width: 170px;
+    margin-right: 450px;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.school-card{
+    text-align: center;
+    background-color:rgba(250, 250, 250, 0.15);
+     padding: 25px 30px 35px 30px;
+     margin: 15px 0px;
+     width: 100%;
+     margin-top: 100px;
+    
+}
+
+.school-container{
+    width: 100%;
+    padding: 105px; /* Adjust this if you want some padding */
+    margin: 0 auto; /* Center align */
+}
+.school-container {
+    padding: 50px 15px; /* Adjust padding for responsiveness */
+}

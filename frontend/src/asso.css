@@ -1,0 +1,49 @@
+.associates-container {
+  width: 100%;
+  padding: 105px; /* Adjust this if you want some padding */
+  margin: 0 auto; /* Center align */
+
+}
+
+.associates-card {
+    text-align: center;
+   background-color:rgba(250, 250, 250, 0.15);
+    border-radius: 20px;
+    padding: 25px 30px 35px 30px;
+    margin: 15px 0px;
+    width: 100%;
+    
+ 
+    
+  }
+  
+  .associates-address{
+    color: white;
+
+  }
+  .associates-ap{
+    color: white;
+  }
+  .associates-cn{
+    color: white;
+  }
+  
+  .associates-company-name {
+    font-weight: bold;
+    color: white;
+    font-size: 16pt;
+  }
+
+  .associates-region{
+    color: yellow;
+    font-size: 18pt;
+  }
+
+  .associates-heading{
+    font-size: 38px;
+    color: white;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+  }

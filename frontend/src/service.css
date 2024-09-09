@@ -1,0 +1,33 @@
+.heading{
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f272b;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+
+}
+
+.list-group-item{
+  font-size: 15px;
+  color: #1f272b;
+  font-weight: 500;
+  transition: all .3s;
+  border: none;
+
+}
+.servicecategories .list-group {
+    
+    list-style: none;
+  }
+
+  .servicecategories {
+    width: 400px;
+    background-color: white;  /* Sets the background color to red */
+    border-radius: 25px;  /* Adds rounded corners */
+    padding: 20px;  /* Adds some padding inside the container */
+    color: white;  /* Changes the text color to white for better readability */
+    margin-left: 50px;
+ 
+  }
+  

@@ -1,0 +1,57 @@
+.Custom-card{
+    background-color: #c11e1e;
+    color: white;
+     padding: 40px;
+     border: none;
+     border-radius: 20px;
+     /* max-width: 400px; Set the max width */
+     margin: 0 auto; /* Center the card horizontally */
+     text-align: center; /* Center the text */
+     width: 366px; /* Set the specific width */
+     margin-top: 50px;
+     margin-bottom: 10px;
+    
+    
+ }
+ 
+ .icon{
+     font-size: 2rem;
+     color: white;
+     width: 60px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+   
+
+ }
+
+
+ 
+ .firstcara-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+
+
+ 
+ }
+ .td{
+    margin-bottom: 15px;
+ }
+ 
+ .card-cus-description {
+     font-size: 1rem;
+     color: white;
+ }
+
+.firstcara-container{
+    width: 100%;
+    padding: 100px; /* Adjust this if you want some padding */
+  
+}
+ 

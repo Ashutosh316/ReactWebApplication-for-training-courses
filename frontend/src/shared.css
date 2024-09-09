@@ -1,0 +1,10 @@
+.background-container {
+    background-image: url('./facts-bg.jpg'); /* Ensure the path is correct */
+    background-size: cover;
+    background-position: center;
+    padding: 70px; /* Adjust padding as needed */
+    width: 100%;
+    margin: 0 auto; /* Center align */ 
+    
+  }
+  

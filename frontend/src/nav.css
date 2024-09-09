@@ -1,0 +1,170 @@
+/* Base navbar style */
+.navbar {
+  position: fixed; /* Keeps the navbar fixed at the top of the page */
+  top: 0; /* Aligns the navbar to the top */
+  width: 100%; /* Makes the navbar span the entire width of the page */
+  z-index: 1000; /* Ensures the navbar appears above other elements */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adds smooth transition effects for background and text color changes */
+  background-color: grey; /* Initial background color */
+  padding: 1rem; /* Adds padding to the navbar */
+  border-bottom: 1px solid #ddd; /* Adds a bottom border */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-scrolled {
+  background-color: white; /* Changes the navbar background to white when scrolled */
+  color: black; /* Changes the text color to black when scrolled */
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.navbar-toggler {
+  display: none; /* Hide the toggler by default */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-toggler-icon {
+  width: 30px;
+  height: 2px;
+  background-color: black;
+  display: block;
+  margin: 6px 0;
+  transition: background-color 0.3s;
+}
+
+.navbar-brand {
+  display: flex; /* Aligns items in the same line */
+  align-items: center;
+  text-decoration: none;
+  color: inherit; /* Inherits color from navbar */
+}
+
+.nav-logo {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex; /* Aligns items in the same line */
+  gap: 1rem;
+  margin-right: 120px;
+  padding-top: 10px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: inherit; /* Inherits color from navbar */
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: orange;
+  border-radius: 5px;
+}
+
+.dropdown-toggle:hover + .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  border-bottom: 1px grey;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: whitesmoke;
+  color: orange;
+}
+
+.open-mind {
+  line-height: 100px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.learning {
+  color: blue;
+  font-family: 400px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Additional styles to handle scrolled state for nested elements */
+.navbar-scrolled .nav-link {
+  color: black; /* Ensures nav-links are black when scrolled */
+}
+
+.navbar-scrolled .open-mind {
+  color: black; /* Ensures 'open mind' text is black when scrolled */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-header {
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+
+  .navbar-toggler {
+    display: block; /* Show the toggler on smaller screens */
+  }
+
+  .nav-menu {
+    display: none; /* Hide the menu by default on smaller screens */
+    flex-direction: column; /* Stack the items vertically */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: grey; /* Match the navbar background */
+    padding: 1rem;
+    z-index: 999; /* Ensure it appears above other elements */
+  }
+
+  .nav-menu.show {
+    display: flex; /* Show the menu when toggled */
+  }
+
+  .nav-item {
+    margin: 0.5rem 0; /* Add spacing between items */
+  }
+
+  .nav-link {
+    height: auto;
+    line-height: normal;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
